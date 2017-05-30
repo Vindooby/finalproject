@@ -2,7 +2,6 @@
 <% @champions.each do |name| %>
   <p><%= name[1]['name'] %></p>
   <p><%= name[1]['title'] %></p>
-  <img src="https://ddragon.leagueoflegends.com/cdn/7.10.1/img/champion/<%= name[1]['key']%>.png">
   <p><%= name[1]['stats']['armor'] %> Armor</p>
   <p><%= name[1]['stats']['hp'] %> Hit Points</p>
   <p><%= name[1]['stats']['movespeed'] %> movement speed</p>
@@ -12,7 +11,4 @@
   <p> Ally Tips <%= name[1]['allytips'] %></p>
   <p> Enemy Tips <%= name[1]['enemytips']%></p>
 
-
-  <!-- <img src="https://ddragon.leagueoflegends.com/cdn/7.10.1/img/champion/<%= name[1]['key']%>.png"> -->
-
-<% end %>
+  <% end %>

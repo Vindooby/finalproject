@@ -53,3 +53,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'taric'
 gem 'devise'
+gem 'httparty'
+gem 'ruby-lol'
+gem 'nokogiri'
