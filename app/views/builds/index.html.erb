@@ -1,3 +1,6 @@
-<h1>Champion List and Info.</h1>
+<h1>The Item Shop</h1>
 <% @items["data"].each do |data|%>
-  <p> data </p>
+  <p><%=data[1]['name']%></p>
+  <%=sanitize data[1]['description']%>
+
+<%end%>
