@@ -1,7 +1,6 @@
-# README
+# BuildLegends!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is designed to help players of the game League of Legends decide on a Champion they would like to play and Build they would like to implement during their next game. It also provides indepth information on all champions and items in the game.
 
 Things you may want to cover:
 
